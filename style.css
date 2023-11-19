@@ -27,6 +27,21 @@ html {
   scroll-behavior: smooth;
 }
 
+/* scroll bar */
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: white;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: var(--black-color);
+}
+
 body {
   background-color: var(--main-color);
 }
