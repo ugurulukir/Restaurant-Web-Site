@@ -713,4 +713,13 @@ footer .credit span {
   }
 }
 
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .header #menu-btn {
+    display: inline-block;
+  }
+}
+
 /* responsive ends */
